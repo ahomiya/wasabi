@@ -1,0 +1,17 @@
+{
+  "name": "Wasabi",
+  "version": "1.0.0",
+  "description": "Wasabi is a collection of useful jQuery utilities.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahomiya/wasabi.git"
+  },
+  "author": "ME",
+  "license": "ahomiya.com",
+  "homepage": "http://www.ahomiya.com",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "2.5.0",
+    "gulp-uglify": "^1.2.0"
+  }
+}
