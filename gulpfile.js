@@ -34,14 +34,14 @@ var packages        = {
 // Concatenate
 gulp.task('js.build.concat', function() {
   return gulp.src(packages.js.utilities)
-    .pipe(concat('wasabi.js'))
+    .pipe(concat('jquery.utilities.js'))
     .pipe(gulp.dest(js.dist));
 });
 
 // Minified
 gulp.task('js.build.minify', function() {
   return gulp.src(packages.js.utilities)
-    .pipe(concat('wasabi.min.js'))
+    .pipe(concat('jquery.utilities.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest(js.dist));
 });
